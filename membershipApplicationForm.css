@@ -1,0 +1,63 @@
+/* STANDARD ELEMENTS */
+
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+    font-size: 14px;
+    /* show a vertical scrollbar */
+    overflow-y: scroll;
+}
+header {
+    border: 2px solid #456879;
+    box-sizing: border-box;
+    margin: 6px 0;
+    padding: 10px;
+}
+
+h1 {
+    color: #064666;
+}
+
+/* FORM ELEMENTS */
+
+label {
+    display: inline-block;
+    text-align: right;
+    width: 20%;
+}
+
+/* add an exception for the agreement label */
+label[for="agreement"] {
+    text-align: left;
+    font-size: 10px;
+}
+
+input {
+    border: 1px solid rgb(78, 76, 76);
+    color: black;
+    display: inline-block;
+}
+input:focus {
+    outline: 2px solid rgb(24, 59, 134);
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"] {
+    background-color: rgb(184, 182, 182);
+    margin: 5px 0;
+    padding: 7px;
+}
+input[type="submit"] {
+    background-color: rgb(24, 59, 134);
+    color: whitesmoke;
+}
+
+/* FEEDBACK */
+
+.valid {
+    background-color: rgb(118, 176, 214);
+}
+
+.invalid {
+    background-color: rgb(233, 166, 42);
+}
